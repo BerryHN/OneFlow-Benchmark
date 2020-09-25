@@ -1,0 +1,43 @@
+Log file created at: 2020/09/14 12:00:26
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0914 12:00:26.699712 45656 global.h:32] NewGlobal 14cudaDeviceProp
+I0914 12:00:26.716044 45656 global.h:32] NewGlobal N7oneflow7EnvDescE
+I0914 12:00:26.716091 45656 global.h:32] NewGlobal N7oneflow10CtrlServerE
+I0914 12:00:26.724012 45656 ctrl_server.cpp:54] CtrlServer listening on 0.0.0.0:44182
+I0914 12:00:26.724123 45656 global.h:32] NewGlobal N7oneflow10CtrlClientE
+I0914 12:00:26.725437 45656 ctrl_client.cpp:202] LoadServer 127.0.0.1 Successful at 0 times
+I0914 12:00:26.725524 45656 global.h:32] NewGlobal N7oneflow10MachineCtxE
+I0914 12:00:26.725540 45656 machine_context.cpp:33] this machine id: 0
+I0914 12:00:26.725558 45656 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0914 12:00:26.725575 45656 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0914 12:00:26.725590 45656 global.h:32] NewGlobal N7oneflow10ThreadPoolE
+I0914 12:00:26.726699 45656 global.h:32] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I0914 12:00:26.726722 45656 global.h:32] NewGlobal N7oneflow9OneflowVME
+I0914 12:00:26.740181 45656 global.h:32] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I0914 12:00:26.740239 45656 global.h:32] NewGlobal N7oneflow16EagerNcclCommMgrE
+I0914 12:00:26.759338 45656 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+I0914 12:00:26.765498 45656 global.h:37] DeleteGlobal N7oneflow12ResourceDescE
+I0914 12:00:26.765524 45656 version.cpp:62] OneFlow git version: v0.2b0-snapshot
+I0914 12:00:26.765545 45656 version.cpp:70] CUDA runtime version: 10.0
+I0914 12:00:26.765558 45656 version.cpp:79] cuDNN version: 7.6.5
+I0914 12:00:26.765566 45656 version.cpp:90] NCCL version: 2.7.3
+I0914 12:00:26.765574 45656 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0914 12:00:26.765590 45656 global.h:32] NewGlobal N7oneflow6IOConfE
+I0914 12:00:26.765609 45656 global.h:32] NewGlobal N7oneflow12ProfilerConfE
+I0914 12:00:26.765619 45656 global.h:32] NewGlobal N7oneflow5IDMgrE
+I0914 12:00:26.766994 45656 global.h:32] NewGlobal N7oneflow16AvailableMemDescE
+I0914 12:00:26.767351 45656 global.h:32] NewGlobal St13unordered_mapISslSt4hashISsESt8equal_toISsESaISt4pairIKSslEEE
+I0914 12:00:26.767385 45656 global.h:32] NewGlobal N7oneflow19CriticalSectionDescE
+I0914 12:00:26.767401 45656 global.h:32] NewGlobal N7oneflow16InterUserJobInfoE
+I0914 12:00:26.767421 45656 global.h:32] NewGlobal N7oneflow26LazyJobBuildAndInferCtxMgrE
+I0914 12:00:26.767437 45656 global.h:32] NewGlobal N7oneflow18LbiDiffWatcherInfoE
+I0914 12:00:26.767455 45656 global.h:32] NewGlobal N7oneflow16JobSetCompileCtxE
+I0914 12:00:26.767473 45656 global.h:32] NewGlobal N7oneflow26RuntimeBufferManagersScopeE
+I0914 12:00:26.767483 45656 global.h:32] NewGlobal N7oneflow9BufferMgrIlEE
+I0914 12:00:26.767498 45656 global.h:32] NewGlobal N7oneflow9BufferMgrISt10shared_ptrINS_18ForeignJobInstanceEEEE
+I0914 12:00:26.767511 45656 oneflow_internal_helper.h:132] NewGlobal N7oneflow25SessionGlobalObjectsScopeE
+I0914 12:00:26.776211 45656 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+I0914 12:00:26.778501 45656 global.h:32] NewGlobal N7oneflow7JobDescE
+I0914 12:00:26.778535 45656 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+F0914 12:00:27.611829 46129 cuda_allocator.cpp:167] Check failed: cudaMemGetInfo(&free_bytes, &total_bytes) : out of memory (2) 

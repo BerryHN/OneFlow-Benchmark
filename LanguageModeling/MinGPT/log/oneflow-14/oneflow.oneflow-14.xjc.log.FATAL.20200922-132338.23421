@@ -1,0 +1,4 @@
+Log file created at: 2020/09/22 13:23:38
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0922 13:23:38.426286 23604 oneflow_internalPYTHON_wrap.cpp:4918] Swig::DirectorMethodException

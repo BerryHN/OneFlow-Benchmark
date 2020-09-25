@@ -1,0 +1,59 @@
+Log file created at: 2020/09/22 14:59:41
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0922 14:59:41.369529 35897 global.h:32] NewGlobal 14cudaDeviceProp
+I0922 14:59:41.406491 35897 global.h:32] NewGlobal N7oneflow7EnvDescE
+I0922 14:59:41.406575 35897 global.h:32] NewGlobal N7oneflow10CtrlServerE
+I0922 14:59:41.418334 35897 ctrl_server.cpp:54] CtrlServer listening on 0.0.0.0:46060
+I0922 14:59:41.418469 35897 global.h:32] NewGlobal N7oneflow10CtrlClientE
+I0922 14:59:41.420074 35897 ctrl_client.cpp:202] LoadServer 127.0.0.1 Successful at 0 times
+I0922 14:59:41.420195 35897 global.h:32] NewGlobal N7oneflow10MachineCtxE
+I0922 14:59:41.420218 35897 machine_context.cpp:33] this machine id: 0
+I0922 14:59:41.420240 35897 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0922 14:59:41.420262 35897 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0922 14:59:41.420280 35897 global.h:32] NewGlobal N7oneflow10ThreadPoolE
+I0922 14:59:41.421701 35897 global.h:32] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I0922 14:59:41.421732 35897 global.h:32] NewGlobal N7oneflow9OneflowVME
+I0922 14:59:41.440443 35897 global.h:32] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I0922 14:59:41.440483 35897 global.h:32] NewGlobal N7oneflow16EagerNcclCommMgrE
+I0922 14:59:41.458221 35897 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+I0922 14:59:41.463937 35897 global.h:37] DeleteGlobal N7oneflow12ResourceDescE
+I0922 14:59:41.463966 35897 version.cpp:62] OneFlow git version: v0.2b0-snapshot
+I0922 14:59:41.463990 35897 version.cpp:70] CUDA runtime version: 10.0
+I0922 14:59:41.464004 35897 version.cpp:79] cuDNN version: 7.6.5
+I0922 14:59:41.464012 35897 version.cpp:90] NCCL version: 2.7.3
+I0922 14:59:41.464021 35897 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0922 14:59:41.464040 35897 global.h:32] NewGlobal N7oneflow6IOConfE
+I0922 14:59:41.464063 35897 global.h:32] NewGlobal N7oneflow12ProfilerConfE
+I0922 14:59:41.464074 35897 global.h:32] NewGlobal N7oneflow5IDMgrE
+I0922 14:59:41.465407 35897 global.h:32] NewGlobal N7oneflow16AvailableMemDescE
+I0922 14:59:41.465776 35897 global.h:32] NewGlobal St13unordered_mapISslSt4hashISsESt8equal_toISsESaISt4pairIKSslEEE
+I0922 14:59:41.465811 35897 global.h:32] NewGlobal N7oneflow19CriticalSectionDescE
+I0922 14:59:41.465831 35897 global.h:32] NewGlobal N7oneflow16InterUserJobInfoE
+I0922 14:59:41.465849 35897 global.h:32] NewGlobal N7oneflow26LazyJobBuildAndInferCtxMgrE
+I0922 14:59:41.465867 35897 global.h:32] NewGlobal N7oneflow18LbiDiffWatcherInfoE
+I0922 14:59:41.465886 35897 global.h:32] NewGlobal N7oneflow16JobSetCompileCtxE
+I0922 14:59:41.465905 35897 global.h:32] NewGlobal N7oneflow26RuntimeBufferManagersScopeE
+I0922 14:59:41.465919 35897 global.h:32] NewGlobal N7oneflow9BufferMgrIlEE
+I0922 14:59:41.465934 35897 global.h:32] NewGlobal N7oneflow9BufferMgrISt10shared_ptrINS_18ForeignJobInstanceEEEE
+I0922 14:59:41.465950 35897 oneflow_internal_helper.h:132] NewGlobal N7oneflow25SessionGlobalObjectsScopeE
+I0922 14:59:41.469879 35897 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+I0922 14:59:41.471927 35897 global.h:32] NewGlobal N7oneflow7JobDescE
+I0922 14:59:41.471968 35897 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+E0922 14:59:46.653905 35897 error.cpp:26]  Check failed: (job_desc->job_id()) == (job_set_.job_size() - 1)	(0 vs -1) 
+I0922 14:59:46.702853 35897 global.h:37] DeleteGlobal N7oneflow25SessionGlobalObjectsScopeE
+I0922 14:59:46.702900 35897 global.h:37] DeleteGlobal N7oneflow26RuntimeBufferManagersScopeE
+I0922 14:59:46.702909 35897 global.h:37] DeleteGlobal N7oneflow9BufferMgrISt10shared_ptrINS_18ForeignJobInstanceEEEE
+I0922 14:59:46.702920 35897 global.h:37] DeleteGlobal N7oneflow9BufferMgrIlEE
+I0922 14:59:46.702934 35897 global.h:37] DeleteGlobal N7oneflow16JobSetCompileCtxE
+I0922 14:59:46.702947 35897 global.h:37] DeleteGlobal N7oneflow18LbiDiffWatcherInfoE
+I0922 14:59:46.702973 35897 global.h:37] DeleteGlobal N7oneflow26LazyJobBuildAndInferCtxMgrE
+I0922 14:59:46.702987 35897 global.h:37] DeleteGlobal N7oneflow16InterUserJobInfoE
+I0922 14:59:46.703186 35897 global.h:37] DeleteGlobal N7oneflow19CriticalSectionDescE
+I0922 14:59:46.703218 35897 global.h:37] DeleteGlobal St13unordered_mapISslSt4hashISsESt8equal_toISsESaISt4pairIKSslEEE
+I0922 14:59:46.703235 35897 global.h:37] DeleteGlobal N7oneflow16AvailableMemDescE
+I0922 14:59:46.703250 35897 global.h:37] DeleteGlobal N7oneflow5IDMgrE
+I0922 14:59:46.703263 35897 global.h:37] DeleteGlobal N7oneflow12ProfilerConfE
+I0922 14:59:46.703274 35897 global.h:37] DeleteGlobal N7oneflow6IOConfE
+I0922 14:59:46.703286 35897 global.h:37] DeleteGlobal N7oneflow12ResourceDescE
+I0922 14:59:46.703296 35897 global.h:32] NewGlobal N7oneflow12ResourceDescE

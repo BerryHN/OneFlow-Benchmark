@@ -1,0 +1,13 @@
+Log file created at: 2020/09/15 17:41:16
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0915 17:41:16.794234 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:41:31.514585 41326 error.cpp:26] op_name: pos_embd already exist in job: test_job
+E0915 17:41:31.516928 41326 error.cpp:26] op_name: pos_embd already exist in job: test_job
+E0915 17:41:50.652560 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:42:39.334481 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:42:39.337502 41326 error.cpp:26] op_name: sfae already exist in job: test_job
+E0915 17:42:53.856017 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:42:53.858649 41326 error.cpp:26] op_name: sfafaefafaeffe already exist in job: test_job
+E0915 17:43:06.455854 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:43:06.458670 41326 error.cpp:26] op_name: s11231dfafewaf already exist in job: test_job

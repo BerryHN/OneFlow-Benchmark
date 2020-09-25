@@ -1,0 +1,5 @@
+Log file created at: 2020/09/10 23:34:44
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0910 23:34:44.071120 46845 error.cpp:26]  Check failed: (perm.size()) == (in_shape.NumAxes())	(2 vs 4) 
+E0910 23:34:44.074044 46845 error.cpp:26]  Check failed: (job_desc->job_id()) == (job_set_.job_size() - 1)	(0 vs -1) 

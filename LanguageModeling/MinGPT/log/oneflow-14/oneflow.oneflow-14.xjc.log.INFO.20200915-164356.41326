@@ -1,0 +1,52 @@
+Log file created at: 2020/09/15 16:43:56
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0915 16:43:56.781533 41326 global.h:32] NewGlobal 14cudaDeviceProp
+I0915 16:43:56.817153 41326 global.h:32] NewGlobal N7oneflow7EnvDescE
+I0915 16:43:56.817236 41326 global.h:32] NewGlobal N7oneflow10CtrlServerE
+I0915 16:43:56.830832 41326 ctrl_server.cpp:54] CtrlServer listening on 0.0.0.0:44088
+I0915 16:43:56.830989 41326 global.h:32] NewGlobal N7oneflow10CtrlClientE
+I0915 16:43:56.832681 41326 ctrl_client.cpp:202] LoadServer 127.0.0.1 Successful at 0 times
+I0915 16:43:56.832814 41326 global.h:32] NewGlobal N7oneflow10MachineCtxE
+I0915 16:43:56.832840 41326 machine_context.cpp:33] this machine id: 0
+I0915 16:43:56.832866 41326 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0915 16:43:56.832892 41326 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0915 16:43:56.832916 41326 global.h:32] NewGlobal N7oneflow10ThreadPoolE
+I0915 16:43:56.834487 41326 global.h:32] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I0915 16:43:56.834522 41326 global.h:32] NewGlobal N7oneflow9OneflowVME
+I0915 16:43:56.855445 41326 global.h:32] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I0915 16:43:56.855492 41326 global.h:32] NewGlobal N7oneflow16EagerNcclCommMgrE
+I0915 16:43:56.881327 41326 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+I0915 16:43:56.888305 41326 global.h:37] DeleteGlobal N7oneflow12ResourceDescE
+I0915 16:43:56.888343 41326 version.cpp:62] OneFlow git version: v0.2b0-snapshot
+I0915 16:43:56.888370 41326 version.cpp:70] CUDA runtime version: 10.0
+I0915 16:43:56.888384 41326 version.cpp:79] cuDNN version: 7.6.5
+I0915 16:43:56.888394 41326 version.cpp:90] NCCL version: 2.7.3
+I0915 16:43:56.888406 41326 global.h:32] NewGlobal N7oneflow12ResourceDescE
+I0915 16:43:56.888424 41326 global.h:32] NewGlobal N7oneflow6IOConfE
+I0915 16:43:56.888447 41326 global.h:32] NewGlobal N7oneflow12ProfilerConfE
+I0915 16:43:56.888459 41326 global.h:32] NewGlobal N7oneflow5IDMgrE
+I0915 16:43:56.889771 41326 global.h:32] NewGlobal N7oneflow16AvailableMemDescE
+I0915 16:43:56.890132 41326 global.h:32] NewGlobal St13unordered_mapISslSt4hashISsESt8equal_toISsESaISt4pairIKSslEEE
+I0915 16:43:56.890170 41326 global.h:32] NewGlobal N7oneflow19CriticalSectionDescE
+I0915 16:43:56.890199 41326 global.h:32] NewGlobal N7oneflow16InterUserJobInfoE
+I0915 16:43:56.890221 41326 global.h:32] NewGlobal N7oneflow26LazyJobBuildAndInferCtxMgrE
+I0915 16:43:56.890241 41326 global.h:32] NewGlobal N7oneflow18LbiDiffWatcherInfoE
+I0915 16:43:56.890264 41326 global.h:32] NewGlobal N7oneflow16JobSetCompileCtxE
+I0915 16:43:56.890283 41326 global.h:32] NewGlobal N7oneflow26RuntimeBufferManagersScopeE
+I0915 16:43:56.890296 41326 global.h:32] NewGlobal N7oneflow9BufferMgrIlEE
+I0915 16:43:56.890313 41326 global.h:32] NewGlobal N7oneflow9BufferMgrISt10shared_ptrINS_18ForeignJobInstanceEEEE
+I0915 16:43:56.890331 41326 oneflow_internal_helper.h:132] NewGlobal N7oneflow25SessionGlobalObjectsScopeE
+I0915 16:43:56.900534 41326 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+I0915 16:43:56.903064 41326 global.h:32] NewGlobal N7oneflow7JobDescE
+I0915 16:43:56.903105 41326 job_desc.cpp:79] Set piece_num_of_experiment_phase 19
+E0915 17:41:16.794234 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:41:31.514585 41326 error.cpp:26] op_name: pos_embd already exist in job: test_job
+E0915 17:41:31.516928 41326 error.cpp:26] op_name: pos_embd already exist in job: test_job
+E0915 17:41:50.652560 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:42:39.334481 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:42:39.337502 41326 error.cpp:26] op_name: sfae already exist in job: test_job
+E0915 17:42:53.856017 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:42:53.858649 41326 error.cpp:26] op_name: sfafaefafaeffe already exist in job: test_job
+E0915 17:43:06.455854 41326 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:43:06.458670 41326 error.cpp:26] op_name: s11231dfafewaf already exist in job: test_job

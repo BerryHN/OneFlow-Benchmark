@@ -1,0 +1,5 @@
+Log file created at: 2020/09/22 13:21:14
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0922 13:21:14.446648 22185 error.cpp:26]  Check failed: IsIndexDataType(indices->data_type())	
+E0922 13:21:14.448668 22185 error.cpp:26]  Check failed: (job_desc->job_id()) == (job_set_.job_size() - 1)	(0 vs -1) 

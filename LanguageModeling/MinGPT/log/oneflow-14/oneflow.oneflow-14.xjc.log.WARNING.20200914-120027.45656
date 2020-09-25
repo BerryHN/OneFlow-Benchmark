@@ -1,0 +1,4 @@
+Log file created at: 2020/09/14 12:00:27
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0914 12:00:27.611829 46129 cuda_allocator.cpp:167] Check failed: cudaMemGetInfo(&free_bytes, &total_bytes) : out of memory (2) 

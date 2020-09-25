@@ -1,0 +1,4 @@
+Log file created at: 2020/09/15 17:55:14
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0915 17:55:14.209869 41560 auto_learning_rate.cpp:78] Check failed: train_conf.has_primary_lr() 

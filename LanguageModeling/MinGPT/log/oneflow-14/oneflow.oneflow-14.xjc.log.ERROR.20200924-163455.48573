@@ -1,0 +1,4 @@
+Log file created at: 2020/09/24 16:34:55
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0924 16:34:55.037034 48755 kernel_util.cpp:579] UNIMPLEMENTED

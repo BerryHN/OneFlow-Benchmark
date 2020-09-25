@@ -1,0 +1,7 @@
+Log file created at: 2020/09/13 22:40:20
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0913 22:40:20.507124 46027 error.cpp:26]  Check failed: IsIntegralDataType(cond_dtype)	
+E0913 22:40:20.537915 46027 error.cpp:26]  Check failed: IsIntegralDataType(cond_dtype)	
+E0913 22:41:17.763824 46027 error.cpp:26] op_name: csa_ConstantLike_tril already exist in job: test_job
+E0913 22:41:17.766464 46027 error.cpp:26] op_name: csa_ConstantLike_tril already exist in job: test_job

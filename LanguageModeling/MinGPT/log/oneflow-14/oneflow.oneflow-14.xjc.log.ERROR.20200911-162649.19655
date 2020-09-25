@@ -1,0 +1,4 @@
+Log file created at: 2020/09/11 16:26:49
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0911 16:26:49.965204 19655 error.cpp:26]  Check failed: IsIntegralDataType(cond_dtype)	

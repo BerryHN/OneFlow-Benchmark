@@ -1,0 +1,5 @@
+Log file created at: 2020/09/22 13:22:11
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0922 13:22:11.942276 22783 error.cpp:26]  Check failed: IsIndexDataType(indices->data_type())	
+E0922 13:22:11.956780 22783 error.cpp:26]  Check failed: IsIndexDataType(indices->data_type())	

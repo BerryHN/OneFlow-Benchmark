@@ -1,0 +1,4 @@
+Log file created at: 2020/09/13 22:31:03
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0913 22:31:03.715975 44988 error.cpp:26]  Check failed: (in_0->data_type()) == (cur_in->data_type())	(2 vs 5) 

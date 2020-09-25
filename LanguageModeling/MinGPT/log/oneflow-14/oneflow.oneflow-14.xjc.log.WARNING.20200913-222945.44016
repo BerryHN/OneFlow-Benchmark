@@ -1,0 +1,5 @@
+Log file created at: 2020/09/13 22:29:45
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0913 22:29:45.237438 44016 error.cpp:26]  Check failed: (in_0->data_type()) == (cur_in->data_type())	(2 vs 5) 
+E0913 22:29:45.242836 44016 error.cpp:26]  Check failed: (job_desc->job_id()) == (job_set_.job_size() - 1)	(0 vs -1) 

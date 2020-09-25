@@ -1,0 +1,5 @@
+Log file created at: 2020/09/15 19:26:57
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0915 19:26:57.542145 29631 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 19:26:57.548712 29631 error.cpp:26] op_name: pos_emb already exist in job: test_job

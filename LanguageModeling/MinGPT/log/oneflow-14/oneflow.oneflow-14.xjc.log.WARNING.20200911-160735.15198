@@ -1,0 +1,5 @@
+Log file created at: 2020/09/11 16:07:35
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0911 16:07:35.380362 15198 error.cpp:26]  Check failed: IsIntegralDataType(cond_dtype)	
+E0911 16:07:35.385438 15198 error.cpp:26]  Check failed: (job_desc->job_id()) == (job_set_.job_size() - 1)	(0 vs -1) 

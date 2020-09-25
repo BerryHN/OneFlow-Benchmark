@@ -1,0 +1,11 @@
+Log file created at: 2020/09/15 17:43:40
+Running on machine: oneflow-14
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0915 17:43:40.819294 35489 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:43:40.827457 35489 error.cpp:26] op_name: positions_embd already exist in job: test_job
+E0915 17:44:58.639773 35489 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:44:58.643049 35489 error.cpp:26] op_name: positions_emb1d already exist in job: test_job
+E0915 17:45:39.877722 35489 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:45:39.882380 35489 error.cpp:26] op_name: pfkdajhfkahfjkahfkd already exist in job: test_job
+E0915 17:46:04.390708 35489 error.cpp:26]  Check failed: job_desc().job_conf().has_default_initializer_conf() || job_desc().job_conf().has_default_initialize_with_snapshot_path() || variable_conf.has_initializer() || variable_conf.has_initialize_with_snapshot()	
+E0915 17:46:04.393447 35489 error.cpp:26] op_name: pfkdajhfkahfjfaefafafafekahfkd already exist in job: test_job
